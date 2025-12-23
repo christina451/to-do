@@ -1,0 +1,17 @@
+# .NET build artifacts
+/api/WebApplication1/bin/
+/api/WebApplication1/obj/
+/api/WebApplication1/.vs/
+
+# Node/Angular
+/ui/todo/node_modules/
+/ui/todo/dist/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+/api/WebApplication1/.vs/

@@ -1,0 +1,53 @@
+/* Page background */
+body {
+  background: #f4f6f8;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center container */
+.container {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/* Title */
+.title {
+  text-align: center;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Card holding tasks */
+.todo-card {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual todo item */
+.todo-item {
+  font-size: 18px;
+  padding: 10px;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 6px;
+  transition: background 0.2s ease;
+}
+
+/* Hover effect */
+.todo-item:hover {
+  background: #f0f7ff;
+}
+
+/* Bullet icon */
+.bullet {
+  color: #0072ff;
+  font-size: 20px;
+  margin-right: 10px;
+}
